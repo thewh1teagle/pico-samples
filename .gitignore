@@ -1,1 +1,5 @@
 build/
+pico-sdk/
+picotool/
+bin/*
+!bin/.gitkeep

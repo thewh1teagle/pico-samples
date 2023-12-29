@@ -1,0 +1,19 @@
+{
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/pico-sdk/**"
+        
+    ],
+    "files.associations": {
+        "cyw43_arch.h": "c",
+        "bootrom.h": "c",
+        "pico.h": "c",
+        "stdio.h": "c",
+        "gpio.h": "c",
+        "sio.h": "c",
+        "padsbank0.h": "c",
+        "iobank0.h": "c",
+        "async_context.h": "c",
+        "arch_threadsafe_background.h": "c",
+        "uart.h": "c"
+    }
+}

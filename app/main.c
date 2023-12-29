@@ -1,4 +1,4 @@
-#include "pico/cyw43_arch.h"
+
 /**
  * Copyright (c) 2020 Raspberry Pi (Trading) Ltd.
  *
@@ -7,12 +7,12 @@
 
 #include <stdio.h>
 #include "pico/stdlib.h"
+#include "pico/cyw43_arch.h"
 #include "hardware/gpio.h"
 #include "hardware/sync.h"
 #include "hardware/structs/ioqspi.h"
 #include "hardware/structs/sio.h"
 #include "pico/bootrom.h"
-
 #include "hardware/uart.h"
 
 #define UART_ID uart0
