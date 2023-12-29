@@ -14,6 +14,7 @@
         "iobank0.h": "c",
         "async_context.h": "c",
         "arch_threadsafe_background.h": "c",
-        "uart.h": "c"
+        "uart.h": "c",
+        "memory": "c"
     }
 }
