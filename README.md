@@ -33,6 +33,18 @@ make -j8
 cp picotool ../../bin 
 ```
 
+# Pico Examples
+```console
+git clone https://github.com/raspberrypi/pico-examples.git
+cd pico-examples
+```
+
+# TinyUSB
+```console
+git clone https://github.com/hathach/tinyusb.git
+cmake .. -DFAMILY=rp2040 && make -j8 && /home/user/pico/pico-samples/bin/picotool load -x hid_generic_inout.uf2 -f
+```
+
 # Develop
 ```console
 mkdir -p app/build
