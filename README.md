@@ -35,7 +35,7 @@ cp picotool ../../bin
 
 # Develop
 ```console
-cd app/
-mkdir build && cd build
+mkdir -p app/build
+cd app/build
 cmake .. && make -j8 && ../../bin/picotool load -x main.uf2 -f
 ```
